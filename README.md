@@ -143,7 +143,7 @@ Through this project, I practised:
 ##  Shop Button Alert
 ![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/ef2d7306c742b7be0d24d02cf3271f2384414388/Screenshot%202026-10-20%20181659.png)
 ##  Database Information
-![Login Page](screenshots/login.png)
+![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/9dec25fbcbb75cb0762c24005441a669b12292f2/Screenshot%202026-10-20%20181816.png)
 
 ## 👨‍💻 Author
 
