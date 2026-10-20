@@ -132,7 +132,7 @@ Through this project, I practised:
 
 ##ScreenShots
 ##Login Page
-![Login Page](screenshots/login.png)
+![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/12a26f15af0be804327abcf87f1f803f18e78b56/Screenshot%202026-10-20%20181528.png)
 ##Admin Contol Page
 ![Login Page](screenshots/login.png)
 ##Customer Page
