@@ -139,7 +139,7 @@ Through this project, I practised:
 ##  Customer Page
 ![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/5252128fbddeabb3218c0673350d7aa0b7a9f92c/Screenshot%202026-10-20%20181528.png)
 ##  Product Detail Page
-![Login Page](screenshots/login.png)
+![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/7a54eeb83f191b5a29234dff73e1dca565324a5a/Screenshot%202026-10-20%20181546.png)
 ##  Shop Button Alert
 ![Login Page](screenshots/login.png)
 ##  Database Information
