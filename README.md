@@ -130,19 +130,19 @@ Through this project, I practised:
 - Product inventory management
 - Online payment integration
 
-**##ScreenShots**
+##  ScreenShots
 
-**##Login Page**
+##  Login Page
 ![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/ec683b8439c35ac60f464df9a135dfcca22285f3/Screenshot%202026-10-20%20181604.png)
-**##Admin Contol Page**
+##  Admin Control page
 ![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/fcbc2059745434f4c06fe44487f1bae387e7165e/Screenshot%202026-10-20%20181621.png)
-**##Customer Page**
+##  Customer Page
+![Login Page](https://github.com/Bezalelbenny/Ecommerce-website-using-react/blob/5252128fbddeabb3218c0673350d7aa0b7a9f92c/Screenshot%202026-10-20%20181528.png)
+##  Product Detail Page
 ![Login Page](screenshots/login.png)
-**##Product Detail page**
+##  Shop Button Alert
 ![Login Page](screenshots/login.png)
-**##Shop Button Alert**
-![Login Page](screenshots/login.png)
-**##Database Information**
+##  Database Information
 ![Login Page](screenshots/login.png)
 
 ## 👨‍💻 Author
