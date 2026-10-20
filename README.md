@@ -130,6 +130,20 @@ Through this project, I practised:
 - Product inventory management
 - Online payment integration
 
+##ScreenShots
+##Login Page
+![Login Page](screenshots/login.png)
+##Admin Contol Page
+![Login Page](screenshots/login.png)
+##Customer Page
+![Login Page](screenshots/login.png)
+##Product Detail page
+![Login Page](screenshots/login.png)
+##Shop Button Alert
+![Login Page](screenshots/login.png)
+##Database Information
+![Login Page](screenshots/login.png)
+
 ## 👨‍💻 Author
 
 **Bezalel Benny**
