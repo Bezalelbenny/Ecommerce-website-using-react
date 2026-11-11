@@ -1,17 +1,22 @@
 import express from "express";
 import cors from "cors";
 import mysql from "mysql2";
-
+import "dotenv/config";
+import fs from "node:fs";
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "shopping"
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
+  port: Number(process.env.DB_PORT || 3306),
+  ssl: {
+    ca: fs.readFileSync(new URL("./ca.pem", import.meta.url))
+  }
 });
 
 db.connect((err) => {
@@ -100,6 +105,8 @@ app.post("/delete", (req, res) => {
   });
 });
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
