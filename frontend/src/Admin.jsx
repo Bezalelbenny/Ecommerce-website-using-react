@@ -13,19 +13,19 @@ function Admin() {
   
    function view()
   {
-    axios.post("http://https://shopping-backend-ppae.onrender.com/view",{f_name,l_name,age,user}).then((res)=>{setShop(res.data);});
+    axios.post("https://shopping-backend-ppae.onrender.com/view",{f_name,l_name,age,user}).then((res)=>{setShop(res.data);});
 
   }
   function update()
   {
-    axios.post("http://https://shopping-backend-ppae.onrender.com/update",{f_name,l_name,age,user,email}).then((res)=>{alert(res.data);
+    axios.post("https://shopping-backend-ppae.onrender.com/update",{f_name,l_name,age,user,email}).then((res)=>{alert(res.data);
       view();
     });
 
   }
   function deleteUser()
   {
-    axios.post("http://https://shopping-backend-ppae.onrender.com/delete",{email}).then((res)=>{alert(res.data);
+    axios.post("https://shopping-backend-ppae.onrender.com/delete",{email}).then((res)=>{alert(res.data);
       view();
     });
   }

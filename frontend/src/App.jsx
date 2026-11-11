@@ -18,7 +18,7 @@ function Shopcrude() {
   const navigate=useNavigate();
   
 function register() {
-  axios.post("http://https://shopping-backend-ppae.onrender.com/register", {
+  axios.post("https://shopping-backend-ppae.onrender.com/register", {
     f_name, l_name, age, user, email, password
   })
   .then((res) => {
