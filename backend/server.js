@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import mysql from "mysql2";
 import "dotenv/config";
-import fs from "node:fs";
+
 const app = express();
 
 app.use(cors());
@@ -15,7 +15,7 @@ const db = mysql.createConnection({
   database: process.env.DB_NAME,
   port: Number(process.env.DB_PORT || 3306),
   ssl: {
-    ca: fs.readFileSync(new URL("./ca.pem", import.meta.url))
+    ca: process.env.AIVEN_CA_CERT
   }
 });
 
